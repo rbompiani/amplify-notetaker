@@ -11,7 +11,7 @@ export const getNotes = /* GraphQL */ `
     }
   }
 `;
-export const listNotess = /* GraphQL */ `
+export const listNotes = /* GraphQL */ `
   query ListNotess(
     $filter: ModelNotesFilterInput
     $limit: Int
